@@ -1,17 +1,17 @@
 - name: Modern Algebra
-  gpa: 4.0
-
+  gpa: A
+  
 - name: Advance Calculus
-  gpa: 3.7
+  gpa: A-
 
 - name: Intro to Human Computer Interaction
-  gpa: 4.0
+  gpa: A
   
 - name: History Of United State
-  gpa: 3.7
+  gpa: A
   
 - name: Machine Learning
-  gpa: 4.0
+  gpa: A
   
 - name: Data Structure & Algorithm
-  gpa: 3.7
+  gpa: A-
