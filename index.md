@@ -1,4 +1,4 @@
-## Yimeng Liu Resume
+## {{page.title}}
 <div id="content">
   Undergraduate Student,
   Undergraduate Researcher,
@@ -6,8 +6,7 @@
   Virginia Polytechnic Institute and State University
 
 {% include resume.html content="This is my sample resume under html." %}
-{% endinclude %}
-## Course History
+<h2 class = "section-header">Course History</h2>
 <ul>
 {% for h in site.data.history %}
   <li>
