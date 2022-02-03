@@ -1,4 +1,6 @@
 ## Yimeng Liu Resume
+
+{% include Project2.html %}
   <div id = "main-resume">
 
       <section id = "personal-information" class = "resume-section">
