@@ -1,4 +1,4 @@
-## {{page.title}}
+## {{site.title}}
 <div id="content">
   Undergraduate Student,
   Undergraduate Researcher,
@@ -10,9 +10,9 @@
 <ul>
 {% for h in site.data.history %}
   <li>
-    <a href="https://github.com/{{ h.name }}">
-      {{ h.gpa }}
-    </a>
+    <span>
+      Course: {{ h.name }}, Grade{{ h.gpa }}
+    </span>
   </li>
 {% endfor %}
 </ul>
