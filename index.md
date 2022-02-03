@@ -11,7 +11,7 @@
 {% for h in site.data.history %}
   <li>
     <span>
-      Course: {{ h.name }}, Grade{{ h.gpa }}
+      Course: {{ h.name }}, {{ h.gpa }}
     </span>
   </li>
 {% endfor %}
