@@ -1,6 +1,12 @@
 ## Yimeng Liu Resume
+<div id="content">
+  Undergraduate Student{{ content | newline_to_br }}
+  Undergraduate Researcher{{ content | newline_to_br }}
+  Department of Mathematics,{{ content | newline_to_br }}
+  Virginia Polytechnic Institute and State University{{ content | newline_to_br }}
+</div>
 
-{% include Project2.html %}
+{% include resume.html content="This is my sample resume under html." %}
   <div id = "main-resume">
 
       <section id = "personal-information" class = "resume-section">
